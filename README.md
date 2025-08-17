@@ -1,7 +1,7 @@
 # Vendor Performance Data Analytics - End-to-End Project
 
 
-```python
+
 This project is an end-to-end case study on vendor performance analytics.
 The aim is to demonstrate how data can be extracted, transformed, analyzed, and finally presented in a 
 meaningful way to help businesses make better decisions about their vendors.
@@ -10,12 +10,12 @@ The work combines SQL for data preparation, Python for analysis, and Power BI fo
 The ultimate goal is to identify which vendors perform well, which ones underperform, and what insights 
 can be drawn to improve procurement strategies and profitability.
 
-```
+
 
 ## Project Components
 
 
-```python
+
 1. Exploratory Data Analysis notebook contains the first steps of working with the dataset. 
    It focuses on cleaning, summarizing, and understanding data distributions.
 2. Vendor Performance Analysis notebook builds on this and calculates performance metrics, 
@@ -23,12 +23,12 @@ can be drawn to improve procurement strategies and profitability.
 3. SQL scripts prepare raw transactional data into clean summary tables for further analysis.
 4. Power BI dashboards (if applicable) visualize the metrics and trends in an interactive format.
 5. Requirements file lists the Python dependencies needed to run the notebooks.
-```
+
 
 ## Workflow
 
 
-```python
+
 The work starts with extracting and cleaning raw data from multiple tables: purchases, sales, 
 vendor invoices, and product prices. These are joined into a consolidated dataset.
 
@@ -42,12 +42,12 @@ and recommendations are drawn for how businesses can improve vendor management.
 
 Finally, Power BI dashboards provide a stakeholder-friendly view of the results.These dashboards 
 allow interactive filtering, vendor scorecards, and visual summaries of performance.
-```
+
 
 ## Key Insights
 
 
-```python
+
 1. Some transactions show very large losses, with gross profit falling to around –52,000 in certain cases. 
    This highlights vendors or products that may not be profitable.
 2. There are premium products with purchase prices as high as 7,500, much higher than the average, 
@@ -59,42 +59,41 @@ allow interactive filtering, vendor scorecards, and visual summaries of performa
    is generally well aligned with sales.
 6. Higher sales prices are sometimes linked to lower profit margins, showing the effect of competitive 
    pricing pressure.
-```
+
 
 ## Recommendations
 
 
-```python
+
 1. Promote or adjust pricing for products that have high profit margins but low sales, to maximize value.
 2. Investigate logistics costs and standardize freight to avoid extreme cost variations.
 3. Reassess strategy for premium products with very high purchase prices.
 4. Review underperforming vendors with consistent losses or delays, and consider alternative sourcing.
-```
+
 
 ## Technologies Used
 
 
-```python
+
 SQL for preparing and aggregating data.
 Python (pandas, numpy, matplotlib, seaborn, plotly) for cleaning, exploration, and analysis.
 Power BI for interactive dashboards.
 Jupyter Notebooks for documenting the workflow.
-```
+
 
 ## How to Run the Project
 
 
-```python
+
 1. Load the raw dataset into a SQL database using the provided scripts.
 2. Run the Exploratory Data Analysis notebook to understand the dataset.
 3. Continue with the Vendor Performance Analysis notebook to compute KPIs and insights.
-4. Load the processed data into Power BI to build or explore dashboards.
-```
+
 
 ## Future Work
 
 
-```python
+
 Possible extensions include building machine learning models to forecast vendor performance, 
 setting up automated dashboard refresh, and detecting anomalies in real time.
 
@@ -103,5 +102,4 @@ This project shows how data analytics can be used to assess and improve vendor p
 structured and actionable way. It combines technical tools with business insights to provide a 
 holistic view of vendor management.
 
-```
 
