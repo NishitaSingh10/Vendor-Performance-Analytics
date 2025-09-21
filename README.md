@@ -22,7 +22,6 @@ can be drawn to improve procurement strategies and profitability.
    ranks vendors, and provides deeper insights into costs, deliveries, and sales.
 3. SQL scripts prepare raw transactional data into clean summary tables for further analysis.
 4. Power BI dashboards (if applicable) visualize the metrics and trends in an interactive format.
-5. Requirements file lists the Python dependencies needed to run the notebooks.
 
 
 ## Workflow
